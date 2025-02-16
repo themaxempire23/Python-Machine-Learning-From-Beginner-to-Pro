@@ -1,0 +1,8 @@
+r2 = r2_score(y_test, y_pred) → R2: Varience of the dependent variable (target) explained by the independent variable (our features)
+                             → How well the model fits the data. Higher is better
+
+mse = mean_squared_error(y_test, y_pred) → Avearge Squared distance between the predicted and actual values. Lower is better.
+mae = mean_absolute_error(y_test, y_pred) → Average absolute distance between and actual values. Lower is better.
+intercept = lr.intercept_ → Starting point of the regression line on the y-axis.
+                          → Value of the  dependent variable (target) when the independed variables (features) are zero
+                          → If positive number, target increases as features increases, if negative - opposite
